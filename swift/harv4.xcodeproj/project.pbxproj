@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B103464B2F58718500EE550E /* test_data.csv in Resources */ = {isa = PBXBuildFile; fileRef = B10346452F58718500EE550E /* test_data.csv */; };
+		B103464C2F58718500EE550E /* MASTER_dws_2026-02-27_12-39-53.csv in Resources */ = {isa = PBXBuildFile; fileRef = B10346302F58718500EE550E /* MASTER_dws_2026-02-27_12-39-53.csv */; };
+		B103464D2F58718500EE550E /* MASTER_dws_2026-02-28_21-14-03.csv in Resources */ = {isa = PBXBuildFile; fileRef = B10346322F58718500EE550E /* MASTER_dws_2026-02-28_21-14-03.csv */; };
+		B103464E2F58718500EE550E /* ios_verification_7classes.json in Resources */ = {isa = PBXBuildFile; fileRef = B103462E2F58718500EE550E /* ios_verification_7classes.json */; };
+		B103464F2F58718500EE550E /* ios_test_data.json in Resources */ = {isa = PBXBuildFile; fileRef = B103462D2F58718500EE550E /* ios_test_data.json */; };
+		B10346502F58718500EE550E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10346172F58718500EE550E /* Assets.xcassets */; };
+		B10346512F58718500EE550E /* swift_audit_manifest_random.json in Resources */ = {isa = PBXBuildFile; fileRef = B10346442F58718500EE550E /* swift_audit_manifest_random.json */; };
+		B10346522F58718500EE550E /* MASTER_Walking_2026-02-28_21-16-57.csv in Resources */ = {isa = PBXBuildFile; fileRef = B10346342F58718500EE550E /* MASTER_Walking_2026-02-28_21-16-57.csv */; };
+		B10346532F58718500EE550E /* MASTER_dws_2026-02-27_12-41-43.csv in Resources */ = {isa = PBXBuildFile; fileRef = B10346312F58718500EE550E /* MASTER_dws_2026-02-27_12-41-43.csv */; };
+		B10346542F58718500EE550E /* MASTER_Up_2026-02-28_21-12-11.csv in Resources */ = {isa = PBXBuildFile; fileRef = B10346332F58718500EE550E /* MASTER_Up_2026-02-28_21-12-11.csv */; };
+		B10346552F58718500EE550E /* Motion_test_data_tune.json in Resources */ = {isa = PBXBuildFile; fileRef = B10346362F58718500EE550E /* Motion_test_data_tune.json */; };
+		B10346562F58718500EE550E /* MASTER_dws_2026-02-27_12-38-05.csv in Resources */ = {isa = PBXBuildFile; fileRef = B103462F2F58718500EE550E /* MASTER_dws_2026-02-27_12-38-05.csv */; };
+		B10346572F58718500EE550E /* Motion_test_data_tune (1).json in Resources */ = {isa = PBXBuildFile; fileRef = B10346372F58718500EE550E /* Motion_test_data_tune (1).json */; };
+		B10346582F58718500EE550E /* CSVManagerUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103461F2F58718500EE550E /* CSVManagerUrl.swift */; };
+		B103465A2F58718500EE550E /* DataRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346212F58718500EE550E /* DataRecorder.swift */; };
+		B103465B2F58718500EE550E /* UCI_RF_90_Vectorized.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B10346472F58718500EE550E /* UCI_RF_90_Vectorized.mlpackage */; };
+		B103465C2F58718500EE550E /* HAR_Hybrid_NNT_Float16.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B10346272F58718500EE550E /* HAR_Hybrid_NNT_Float16.mlpackage */; };
+		B103465D2F58718500EE550E /* NeuralInferenceVerifierUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103463A2F58718500EE550E /* NeuralInferenceVerifierUrl.swift */; };
+		B103465E2F58718500EE550E /* HARModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346292F58718500EE550E /* HARModels.swift */; };
+		B103465F2F58718500EE550E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103461B2F58718500EE550E /* ContentView.swift */; };
+		B10346602F58718500EE550E /* RF120BatchProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103463E2F58718500EE550E /* RF120BatchProcessor.swift */; };
+		B10346612F58718500EE550E /* CalibrationService .swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346192F58718500EE550E /* CalibrationService .swift */; };
+		B10346622F58718500EE550E /* uci_75_string.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B10346462F58718500EE550E /* uci_75_string.mlpackage */; };
+		B10346632F58718500EE550E /* RFActivityClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B103463F2F58718500EE550E /* RFActivityClassifier.mlpackage */; };
+		B10346642F58718500EE550E /* PreProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103463B2F58718500EE550E /* PreProcessor.swift */; };
+		B10346652F58718500EE550E /* UCIInferenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346492F58718500EE550E /* UCIInferenceEngine.swift */; };
+		B10346662F58718500EE550E /* NeuralInferenceVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346392F58718500EE550E /* NeuralInferenceVerifier.swift */; };
+		B10346672F58718500EE550E /* CoreMLParityTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103461C2F58718500EE550E /* CoreMLParityTester.swift */; };
+		B10346682F58718500EE550E /* 75featurejsontest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346142F58718500EE550E /* 75featurejsontest.swift */; };
+		B10346692F58718500EE550E /* sensorproviderdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346412F58718500EE550E /* sensorproviderdelegate.swift */; };
+		B103466A2F58718500EE550E /* BatchOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346182F58718500EE550E /* BatchOrchestrator.swift */; };
+		B103466B2F58718500EE550E /* SessionReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346422F58718500EE550E /* SessionReportView.swift */; };
+		B103466C2F58718500EE550E /* UCI75BatchProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346482F58718500EE550E /* UCI75BatchProcessor.swift */; };
+		B103466D2F58718500EE550E /* InferenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103462C2F58718500EE550E /* InferenceEngine.swift */; };
+		B103466E2F58718500EE550E /* FolderBatchOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346252F58718500EE550E /* FolderBatchOrchestrator.swift */; };
+		B103466F2F58718500EE550E /* SimulationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346432F58718500EE550E /* SimulationService.swift */; };
+		B10346702F58718500EE550E /* ActivityStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346152F58718500EE550E /* ActivityStateManager.swift */; };
+		B10346712F58718500EE550E /* UCIVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103464A2F58718500EE550E /* UCIVerifier.swift */; };
+		B10346722F58718500EE550E /* ComparisonResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103461A2F58718500EE550E /* ComparisonResultView.swift */; };
+		B10346732F58718500EE550E /* ModelVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346352F58718500EE550E /* ModelVerifier.swift */; };
+		B10346742F58718500EE550E /* DataLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346202F58718500EE550E /* DataLogger.swift */; };
+		B10346752F58718500EE550E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346162F58718500EE550E /* ActivityView.swift */; };
+		B10346762F58718500EE550E /* RF75InferenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103463D2F58718500EE550E /* RF75InferenceEngine.swift */; };
+		B10346772F58718500EE550E /* FeatureExtractor120.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346222F58718500EE550E /* FeatureExtractor120.swift */; };
+		B10346782F58718500EE550E /* HARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103462B2F58718500EE550E /* HARViewModel.swift */; };
+		B10346792F58718500EE550E /* FeatureExtractor75.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346232F58718500EE550E /* FeatureExtractor75.swift */; };
+		B103467A2F58718500EE550E /* SensorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346402F58718500EE550E /* SensorProvider.swift */; };
+		B103467B2F58718500EE550E /* RF75compBatchProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103463C2F58718500EE550E /* RF75compBatchProcessor.swift */; };
+		B103467C2F58718500EE550E /* CSVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103461E2F58718500EE550E /* CSVManager.swift */; };
+		B103467D2F58718500EE550E /* MotionSense_120.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B10346382F58718500EE550E /* MotionSense_120.mlpackage */; };
+		B103467E2F58718500EE550E /* FeatureExtractorf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10346242F58718500EE550E /* FeatureExtractorf.swift */; };
+		B103467F2F58718500EE550E /* HAR_Hybrid_NNF_Float16.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B10346262F58718500EE550E /* HAR_Hybrid_NNF_Float16.mlpackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10346142F58718500EE550E /* 75featurejsontest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 75featurejsontest.swift; sourceTree = "<group>"; };
+		B10346152F58718500EE550E /* ActivityStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStateManager.swift; sourceTree = "<group>"; };
+		B10346162F58718500EE550E /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		B10346172F58718500EE550E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10346182F58718500EE550E /* BatchOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchOrchestrator.swift; sourceTree = "<group>"; };
+		B10346192F58718500EE550E /* CalibrationService .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalibrationService .swift"; sourceTree = "<group>"; };
+		B103461A2F58718500EE550E /* ComparisonResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonResultView.swift; sourceTree = "<group>"; };
+		B103461B2F58718500EE550E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B103461C2F58718500EE550E /* CoreMLParityTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLParityTester.swift; sourceTree = "<group>"; };
+		B103461E2F58718500EE550E /* CSVManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVManager.swift; sourceTree = "<group>"; };
+		B103461F2F58718500EE550E /* CSVManagerUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVManagerUrl.swift; sourceTree = "<group>"; };
+		B10346202F58718500EE550E /* DataLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLogger.swift; sourceTree = "<group>"; };
+		B10346212F58718500EE550E /* DataRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRecorder.swift; sourceTree = "<group>"; };
+		B10346222F58718500EE550E /* FeatureExtractor120.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureExtractor120.swift; sourceTree = "<group>"; };
+		B10346232F58718500EE550E /* FeatureExtractor75.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureExtractor75.swift; sourceTree = "<group>"; };
+		B10346242F58718500EE550E /* FeatureExtractorf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureExtractorf.swift; sourceTree = "<group>"; };
+		B10346252F58718500EE550E /* FolderBatchOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderBatchOrchestrator.swift; sourceTree = "<group>"; };
+		B10346262F58718500EE550E /* HAR_Hybrid_NNF_Float16.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = HAR_Hybrid_NNF_Float16.mlpackage; sourceTree = "<group>"; };
+		B10346272F58718500EE550E /* HAR_Hybrid_NNT_Float16.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = HAR_Hybrid_NNT_Float16.mlpackage; sourceTree = "<group>"; };
+		B10346292F58718500EE550E /* HARModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HARModels.swift; sourceTree = "<group>"; };
+		B103462B2F58718500EE550E /* HARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HARViewModel.swift; sourceTree = "<group>"; };
+		B103462C2F58718500EE550E /* InferenceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InferenceEngine.swift; sourceTree = "<group>"; };
+		B103462D2F58718500EE550E /* ios_test_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ios_test_data.json; sourceTree = "<group>"; };
+		B103462E2F58718500EE550E /* ios_verification_7classes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ios_verification_7classes.json; sourceTree = "<group>"; };
+		B103462F2F58718500EE550E /* MASTER_dws_2026-02-27_12-38-05.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MASTER_dws_2026-02-27_12-38-05.csv"; sourceTree = "<group>"; };
+		B10346302F58718500EE550E /* MASTER_dws_2026-02-27_12-39-53.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MASTER_dws_2026-02-27_12-39-53.csv"; sourceTree = "<group>"; };
+		B10346312F58718500EE550E /* MASTER_dws_2026-02-27_12-41-43.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MASTER_dws_2026-02-27_12-41-43.csv"; sourceTree = "<group>"; };
+		B10346322F58718500EE550E /* MASTER_dws_2026-02-28_21-14-03.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MASTER_dws_2026-02-28_21-14-03.csv"; sourceTree = "<group>"; };
+		B10346332F58718500EE550E /* MASTER_Up_2026-02-28_21-12-11.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MASTER_Up_2026-02-28_21-12-11.csv"; sourceTree = "<group>"; };
+		B10346342F58718500EE550E /* MASTER_Walking_2026-02-28_21-16-57.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MASTER_Walking_2026-02-28_21-16-57.csv"; sourceTree = "<group>"; };
+		B10346352F58718500EE550E /* ModelVerifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelVerifier.swift; sourceTree = "<group>"; };
+		B10346362F58718500EE550E /* Motion_test_data_tune.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Motion_test_data_tune.json; sourceTree = "<group>"; };
+		B10346372F58718500EE550E /* Motion_test_data_tune (1).json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Motion_test_data_tune (1).json"; sourceTree = "<group>"; };
+		B10346382F58718500EE550E /* MotionSense_120.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MotionSense_120.mlpackage; sourceTree = "<group>"; };
+		B10346392F58718500EE550E /* NeuralInferenceVerifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralInferenceVerifier.swift; sourceTree = "<group>"; };
+		B103463A2F58718500EE550E /* NeuralInferenceVerifierUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralInferenceVerifierUrl.swift; sourceTree = "<group>"; };
+		B103463B2F58718500EE550E /* PreProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreProcessor.swift; sourceTree = "<group>"; };
+		B103463C2F58718500EE550E /* RF75compBatchProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RF75compBatchProcessor.swift; sourceTree = "<group>"; };
+		B103463D2F58718500EE550E /* RF75InferenceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RF75InferenceEngine.swift; sourceTree = "<group>"; };
+		B103463E2F58718500EE550E /* RF120BatchProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RF120BatchProcessor.swift; sourceTree = "<group>"; };
+		B103463F2F58718500EE550E /* RFActivityClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = RFActivityClassifier.mlpackage; sourceTree = "<group>"; };
+		B10346402F58718500EE550E /* SensorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorProvider.swift; sourceTree = "<group>"; };
+		B10346412F58718500EE550E /* sensorproviderdelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensorproviderdelegate.swift; sourceTree = "<group>"; };
+		B10346422F58718500EE550E /* SessionReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionReportView.swift; sourceTree = "<group>"; };
+		B10346432F58718500EE550E /* SimulationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationService.swift; sourceTree = "<group>"; };
+		B10346442F58718500EE550E /* swift_audit_manifest_random.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = swift_audit_manifest_random.json; sourceTree = "<group>"; };
+		B10346452F58718500EE550E /* test_data.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = test_data.csv; sourceTree = "<group>"; };
+		B10346462F58718500EE550E /* uci_75_string.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = uci_75_string.mlpackage; sourceTree = "<group>"; };
+		B10346472F58718500EE550E /* UCI_RF_90_Vectorized.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = UCI_RF_90_Vectorized.mlpackage; sourceTree = "<group>"; };
+		B10346482F58718500EE550E /* UCI75BatchProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCI75BatchProcessor.swift; sourceTree = "<group>"; };
+		B10346492F58718500EE550E /* UCIInferenceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCIInferenceEngine.swift; sourceTree = "<group>"; };
+		B103464A2F58718500EE550E /* UCIVerifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCIVerifier.swift; sourceTree = "<group>"; };
+		B12564BC2F4B9CC9004D788E /* harv4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = harv4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B12564BE2F4B9CC9004D788E /* harv4 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = harv4;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B12564B92F4B9CC9004D788E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B12564B32F4B9CC9004D788E = {
+			isa = PBXGroup;
+			children = (
+				B10346142F58718500EE550E /* 75featurejsontest.swift */,
+				B10346152F58718500EE550E /* ActivityStateManager.swift */,
+				B10346162F58718500EE550E /* ActivityView.swift */,
+				B10346172F58718500EE550E /* Assets.xcassets */,
+				B10346182F58718500EE550E /* BatchOrchestrator.swift */,
+				B10346192F58718500EE550E /* CalibrationService .swift */,
+				B103461A2F58718500EE550E /* ComparisonResultView.swift */,
+				B103461B2F58718500EE550E /* ContentView.swift */,
+				B103461C2F58718500EE550E /* CoreMLParityTester.swift */,
+				B103461E2F58718500EE550E /* CSVManager.swift */,
+				B103461F2F58718500EE550E /* CSVManagerUrl.swift */,
+				B10346202F58718500EE550E /* DataLogger.swift */,
+				B10346212F58718500EE550E /* DataRecorder.swift */,
+				B10346222F58718500EE550E /* FeatureExtractor120.swift */,
+				B10346232F58718500EE550E /* FeatureExtractor75.swift */,
+				B10346242F58718500EE550E /* FeatureExtractorf.swift */,
+				B10346252F58718500EE550E /* FolderBatchOrchestrator.swift */,
+				B10346262F58718500EE550E /* HAR_Hybrid_NNF_Float16.mlpackage */,
+				B10346272F58718500EE550E /* HAR_Hybrid_NNT_Float16.mlpackage */,
+				B10346292F58718500EE550E /* HARModels.swift */,
+				B103462B2F58718500EE550E /* HARViewModel.swift */,
+				B103462C2F58718500EE550E /* InferenceEngine.swift */,
+				B103462D2F58718500EE550E /* ios_test_data.json */,
+				B103462E2F58718500EE550E /* ios_verification_7classes.json */,
+				B103462F2F58718500EE550E /* MASTER_dws_2026-02-27_12-38-05.csv */,
+				B10346302F58718500EE550E /* MASTER_dws_2026-02-27_12-39-53.csv */,
+				B10346312F58718500EE550E /* MASTER_dws_2026-02-27_12-41-43.csv */,
+				B10346322F58718500EE550E /* MASTER_dws_2026-02-28_21-14-03.csv */,
+				B10346332F58718500EE550E /* MASTER_Up_2026-02-28_21-12-11.csv */,
+				B10346342F58718500EE550E /* MASTER_Walking_2026-02-28_21-16-57.csv */,
+				B10346352F58718500EE550E /* ModelVerifier.swift */,
+				B10346362F58718500EE550E /* Motion_test_data_tune.json */,
+				B10346372F58718500EE550E /* Motion_test_data_tune (1).json */,
+				B10346382F58718500EE550E /* MotionSense_120.mlpackage */,
+				B10346392F58718500EE550E /* NeuralInferenceVerifier.swift */,
+				B103463A2F58718500EE550E /* NeuralInferenceVerifierUrl.swift */,
+				B103463B2F58718500EE550E /* PreProcessor.swift */,
+				B103463C2F58718500EE550E /* RF75compBatchProcessor.swift */,
+				B103463D2F58718500EE550E /* RF75InferenceEngine.swift */,
+				B103463E2F58718500EE550E /* RF120BatchProcessor.swift */,
+				B103463F2F58718500EE550E /* RFActivityClassifier.mlpackage */,
+				B10346402F58718500EE550E /* SensorProvider.swift */,
+				B10346412F58718500EE550E /* sensorproviderdelegate.swift */,
+				B10346422F58718500EE550E /* SessionReportView.swift */,
+				B10346432F58718500EE550E /* SimulationService.swift */,
+				B10346442F58718500EE550E /* swift_audit_manifest_random.json */,
+				B10346452F58718500EE550E /* test_data.csv */,
+				B10346462F58718500EE550E /* uci_75_string.mlpackage */,
+				B10346472F58718500EE550E /* UCI_RF_90_Vectorized.mlpackage */,
+				B10346482F58718500EE550E /* UCI75BatchProcessor.swift */,
+				B10346492F58718500EE550E /* UCIInferenceEngine.swift */,
+				B103464A2F58718500EE550E /* UCIVerifier.swift */,
+				B12564BE2F4B9CC9004D788E /* harv4 */,
+				B12564BD2F4B9CC9004D788E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B12564BD2F4B9CC9004D788E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B12564BC2F4B9CC9004D788E /* harv4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B12564BB2F4B9CC9004D788E /* harv4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12564C72F4B9CCB004D788E /* Build configuration list for PBXNativeTarget "harv4" */;
+			buildPhases = (
+				B12564B82F4B9CC9004D788E /* Sources */,
+				B12564B92F4B9CC9004D788E /* Frameworks */,
+				B12564BA2F4B9CC9004D788E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B12564BE2F4B9CC9004D788E /* harv4 */,
+			);
+			name = harv4;
+			packageProductDependencies = (
+			);
+			productName = harv4;
+			productReference = B12564BC2F4B9CC9004D788E /* harv4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B12564B42F4B9CC9004D788E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					B12564BB2F4B9CC9004D788E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = B12564B72F4B9CC9004D788E /* Build configuration list for PBXProject "harv4" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B12564B32F4B9CC9004D788E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B12564BD2F4B9CC9004D788E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B12564BB2F4B9CC9004D788E /* harv4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B12564BA2F4B9CC9004D788E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B103464B2F58718500EE550E /* test_data.csv in Resources */,
+				B103464C2F58718500EE550E /* MASTER_dws_2026-02-27_12-39-53.csv in Resources */,
+				B103464D2F58718500EE550E /* MASTER_dws_2026-02-28_21-14-03.csv in Resources */,
+				B103464E2F58718500EE550E /* ios_verification_7classes.json in Resources */,
+				B103464F2F58718500EE550E /* ios_test_data.json in Resources */,
+				B10346502F58718500EE550E /* Assets.xcassets in Resources */,
+				B10346512F58718500EE550E /* swift_audit_manifest_random.json in Resources */,
+				B10346522F58718500EE550E /* MASTER_Walking_2026-02-28_21-16-57.csv in Resources */,
+				B10346532F58718500EE550E /* MASTER_dws_2026-02-27_12-41-43.csv in Resources */,
+				B10346542F58718500EE550E /* MASTER_Up_2026-02-28_21-12-11.csv in Resources */,
+				B10346552F58718500EE550E /* Motion_test_data_tune.json in Resources */,
+				B10346562F58718500EE550E /* MASTER_dws_2026-02-27_12-38-05.csv in Resources */,
+				B10346572F58718500EE550E /* Motion_test_data_tune (1).json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B12564B82F4B9CC9004D788E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10346582F58718500EE550E /* CSVManagerUrl.swift in Sources */,
+				B103465A2F58718500EE550E /* DataRecorder.swift in Sources */,
+				B103465B2F58718500EE550E /* UCI_RF_90_Vectorized.mlpackage in Sources */,
+				B103465C2F58718500EE550E /* HAR_Hybrid_NNT_Float16.mlpackage in Sources */,
+				B103465D2F58718500EE550E /* NeuralInferenceVerifierUrl.swift in Sources */,
+				B103465E2F58718500EE550E /* HARModels.swift in Sources */,
+				B103465F2F58718500EE550E /* ContentView.swift in Sources */,
+				B10346602F58718500EE550E /* RF120BatchProcessor.swift in Sources */,
+				B10346612F58718500EE550E /* CalibrationService .swift in Sources */,
+				B10346622F58718500EE550E /* uci_75_string.mlpackage in Sources */,
+				B10346632F58718500EE550E /* RFActivityClassifier.mlpackage in Sources */,
+				B10346642F58718500EE550E /* PreProcessor.swift in Sources */,
+				B10346652F58718500EE550E /* UCIInferenceEngine.swift in Sources */,
+				B10346662F58718500EE550E /* NeuralInferenceVerifier.swift in Sources */,
+				B10346672F58718500EE550E /* CoreMLParityTester.swift in Sources */,
+				B10346682F58718500EE550E /* 75featurejsontest.swift in Sources */,
+				B10346692F58718500EE550E /* sensorproviderdelegate.swift in Sources */,
+				B103466A2F58718500EE550E /* BatchOrchestrator.swift in Sources */,
+				B103466B2F58718500EE550E /* SessionReportView.swift in Sources */,
+				B103466C2F58718500EE550E /* UCI75BatchProcessor.swift in Sources */,
+				B103466D2F58718500EE550E /* InferenceEngine.swift in Sources */,
+				B103466E2F58718500EE550E /* FolderBatchOrchestrator.swift in Sources */,
+				B103466F2F58718500EE550E /* SimulationService.swift in Sources */,
+				B10346702F58718500EE550E /* ActivityStateManager.swift in Sources */,
+				B10346712F58718500EE550E /* UCIVerifier.swift in Sources */,
+				B10346722F58718500EE550E /* ComparisonResultView.swift in Sources */,
+				B10346732F58718500EE550E /* ModelVerifier.swift in Sources */,
+				B10346742F58718500EE550E /* DataLogger.swift in Sources */,
+				B10346752F58718500EE550E /* ActivityView.swift in Sources */,
+				B10346762F58718500EE550E /* RF75InferenceEngine.swift in Sources */,
+				B10346772F58718500EE550E /* FeatureExtractor120.swift in Sources */,
+				B10346782F58718500EE550E /* HARViewModel.swift in Sources */,
+				B10346792F58718500EE550E /* FeatureExtractor75.swift in Sources */,
+				B103467A2F58718500EE550E /* SensorProvider.swift in Sources */,
+				B103467B2F58718500EE550E /* RF75compBatchProcessor.swift in Sources */,
+				B103467C2F58718500EE550E /* CSVManager.swift in Sources */,
+				B103467D2F58718500EE550E /* MotionSense_120.mlpackage in Sources */,
+				B103467E2F58718500EE550E /* FeatureExtractorf.swift in Sources */,
+				B103467F2F58718500EE550E /* HAR_Hybrid_NNF_Float16.mlpackage in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B12564C52F4B9CCB004D788E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JJZ23H4B6C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B12564C62F4B9CCB004D788E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JJZ23H4B6C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B12564C82F4B9CCB004D788E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJZ23H4B6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Yes It is";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asli.harv4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B12564C92F4B9CCB004D788E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJZ23H4B6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Yes It is";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asli.harv4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B12564B72F4B9CC9004D788E /* Build configuration list for PBXProject "harv4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12564C52F4B9CCB004D788E /* Debug */,
+				B12564C62F4B9CCB004D788E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12564C72F4B9CCB004D788E /* Build configuration list for PBXNativeTarget "harv4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12564C82F4B9CCB004D788E /* Debug */,
+				B12564C92F4B9CCB004D788E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B12564B42F4B9CC9004D788E /* Project object */;
+}

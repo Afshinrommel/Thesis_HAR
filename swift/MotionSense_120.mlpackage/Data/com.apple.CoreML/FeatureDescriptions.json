@@ -1,0 +1,21 @@
+{
+  "Inputs" : {
+    "features" : {
+      "MLFeatureShortDescription" : "Input Vector (Size 120)"
+    }
+  },
+  "Outputs" : {
+    "classProbability" : {
+      "MLFeatureShortDescription" : ""
+    },
+    "classLabel" : {
+      "MLFeatureShortDescription" : "Predicted Activity"
+    }
+  },
+  "TrainingInputs" : {
+
+  },
+  "States" : {
+
+  }
+}

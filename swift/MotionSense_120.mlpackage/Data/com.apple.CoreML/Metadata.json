@@ -1,0 +1,8 @@
+{
+  "MLModelDescriptionKey" : "MotionSense Random Forest (120 Features)",
+  "MLModelCreatorDefinedKey" : {
+    "com.github.apple.coremltools.version" : "9.0",
+    "com.github.apple.coremltools.source" : "scikit-learn==1.5.2"
+  },
+  "MLModelAuthorKey" : "Amir"
+}
